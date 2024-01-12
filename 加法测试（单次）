@@ -1,0 +1,21 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+
+int main()
+{
+	//字符类型
+	//char ch = 'a';
+	//整形
+	//int age = 20;
+	//短整型
+	//float weight = 55.5;
+	//单精度浮点型
+	//double d = 0.00;
+	//双精度浮点型
+	int a, b;
+	int sum;
+	scanf("%d %d", &a, &b);
+	sum = a + b;
+	printf("%d\n", sum);
+	return 0;
+}
