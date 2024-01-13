@@ -18,3 +18,20 @@ int main()
 	printf("平均值 = %d\n", s);
 	return 0;
 }
+改善：
+int main()
+{
+	//数组
+	int a[10] = { 0 }, i ,s = 0 ;
+	//输入
+	for (i = 0; i < 10; i++)
+	{
+		scanf("%d", &a[i]);
+		s = s + a[i];//求和
+	}
+	//求平均值
+	s = s / 10;
+	//输出
+	printf("平均值 = %d\n", s);
+	return 0;
+}
